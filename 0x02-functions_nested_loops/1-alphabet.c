@@ -4,16 +4,17 @@
 /**
  *  print_alphabet - prints the alphabet, in lowercase followed by a new line
  *
- *  Return: no return value
+ *  Return:0
  */
 void print_alphabet(void)
 {
-	char alp = 'a';
+	char c = 'a';
 
-	while (alp <= 'z')
+	while (c <= 'z')
 	{
-		_putchar(alp);
-		alp++;
+		_putchar(c);
+		c++;
+
 	}
 	_putchar('\n');
 }
