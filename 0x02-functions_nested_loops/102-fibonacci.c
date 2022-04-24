@@ -5,7 +5,7 @@
  * main - prints first 50 numbers of the fibonacci sequence
  * Return: 0
  */
-nt main(void)
+int main(void)
 {
 	int i, n;
 	long f1, f2, next;
