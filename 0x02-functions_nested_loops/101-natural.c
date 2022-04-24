@@ -21,6 +21,5 @@ int main(void)
 		c++;
 	}
 	printf("%i\n", sum);
-
 	return (0);
 }
