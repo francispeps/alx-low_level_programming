@@ -23,11 +23,11 @@ void print_diagonal(int n)
 				_putchar(s);
 			}
 			_putchar(k);
-			putchar('\n');
+			_putchar('\n');
 		}
 	}
 		if (n <= 0)
 		{
-			putchar('\n');
+			_putchar('\n');
 		}
 }
