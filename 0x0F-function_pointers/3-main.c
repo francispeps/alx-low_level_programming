@@ -24,8 +24,7 @@ if (
 strcmp(argv[2], "-") &&
 strcmp(argv[2], "*") &&
 strcmp(argv[2], "/") &&
-strcmp(argv[2], "%"))
-(
+strcmp(argv[2], "%")))
 {
 printf("Error\n");
 exit(99);
